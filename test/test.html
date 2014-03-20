@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Util Test Suite</title>
+  <!-- Load local QUnit. -->
+  <link rel="stylesheet" href="libs/qunit.css" media="screen">
+  <script src="libs/qunit.js"></script>
+  <!-- Load dependence. -->
+  <script src="http://wres.mangocity.com/js/lib/seajs/2.1.1/sea.js" ></script>  
+  <!-- Load local lib and tests. -->
+  <script src="src/util.js"></script>
+  <script src="test.js"></script>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">this had better work.</div>
+  <script>
+    seajs.use(['./test'],function(){
+      
+    });
+  </script>
+</body>
+</html>
