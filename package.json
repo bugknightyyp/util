@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "scripts": {
     "test":  "grunt qunit"
-  }
+  },
   "devDependencies": {
     "node": "*",
     "grunt": "~0.4.1",
