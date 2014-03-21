@@ -1,4 +1,4 @@
-define(function(require,exports,module){
+;define(function(require,exports,module){
 	var $ = require("jquery/1.11.0/jquery.cmd.min");
 
   
@@ -91,9 +91,10 @@ define(function(require,exports,module){
   exports.throttle = function(fn, delay, context){
     var timer;
     return function(){
+      var params = arguments;
       clearTimeout(timer);
       timer = setTimeout(function(){
-          fn.call(context);
+          fn.apply(context, params);
       }, delay);
     
     };

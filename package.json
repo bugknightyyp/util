@@ -1,15 +1,16 @@
 {
   "name": "util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
-    "test":  "grunt qunit"
+    "test": "grunt qunit"
   },
   "devDependencies": {
     "node": "*",
-    "grunt": "~0.4.1",
-    "grunt-cmd-transport": "~0.2.9",
-    "grunt-contrib-uglify": "~0.2.2",
+    "grunt": "~0.4.3",
+    "grunt-cmd-transport": "~0.4.1",
+    "grunt-contrib-uglify": "~0.4.0",
     "qunit": "~0.6.2",
-    "grunt-contrib-qunit": "~0.4.0"
+    "grunt-contrib-qunit": "~0.4.0",
+    "grunt-contrib-copy": "~0.5.0"
   }
 }

@@ -1,7 +1,7 @@
 define(function(require, exports, module){
 
 var $ = require('jquery/1.11.0/jquery.cmd.min');
-var util = require('../src/util');
+var util = require('../src/util.cmd');
 
 
 test('throttle', function(){
